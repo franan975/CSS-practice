@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial, sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+.gogole {
+  width: 590px;
+  margin: 260px auto 0px;
+}
+
+.gogole img {
+  display: block;
+  margin: auto;
+}
+
+.gogole .search {
+  position: relative;
+  margin: 30px 0px;
+}
+
+.gogole .search svg {
+  width: 24px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.gogole .search i {
+  position: absolute;
+  left: 17px;
+  top: 17px;
+  color: #9aa0a6;
+}
+.gogole .search input {
+  width: 100%;
+  padding: 14px 15px 14px 50px;
+  border: 1px solid #dfe1e5;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.gogole .search input:hover,
+.gogole .search input:focus {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.gogole .buttons {
+  text-align: center;
+}
+
+.gogole .buttons button {
+  padding: 10px 20px;
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.gogole .buttons button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+  border-radius: 4px;
+}
+
+.gogole p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.gogole p a {
+  text-decoration: none;
+}
+
+.gogole p a:hover {
+  text-decoration: underline;
+}
